@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sprachkonzpte Aufgabe 7</title>
+</head>
+
+<body>
+    <div class="inputThings">
+        <label>Wähle deine Farbe.</label> <br>
+        <select id="colorTxt" name="colorTxt">
+            <option value="Red">Red</option>
+            <option value="White">White</option>
+            <option value="Black">Black</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Violett">Violett</option>
+            <option value="Brown">Brown</option>
+        </select>
+        <br> <br>
+        <button onclick="pressButton()">Lets go !</button>
+    </div>
+    <br> <br>
+    <div class="results">
+        <label id="textResult"></label>
+        <br>
+        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="0" height="0" alt=""
+            id="resultPicture" />
+    </div>
+
+</body>
+
+</html>
+<style>
+    body {
+        background-color: #DBF9FC;
+    }
+
+    .inputThings {
+        text-align: center;
+    }
+
+    .results {
+        text-align: center;
+    }
+</style>
+
+<script type="text/javascript" src="OnlineGame.js"></script>
