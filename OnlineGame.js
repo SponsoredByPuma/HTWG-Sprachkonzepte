@@ -71,7 +71,7 @@ async function pressButton() {
             case 9:
                 img.src = "https://s3.getstickerpack.com/storage/uploads/sticker-pack/mr-incredible-pack/sticker_15.webp?78406250d314e0c6b2dc3620f6a82dac&d=200x200";
                 break;
-            case 10:
+            default:
                 img.src = "https://media.tenor.com/r73od8P4aNgAAAAd/suicide-wednesday.gif";
                 break;
         }
